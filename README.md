@@ -1,2 +1,4 @@
 # hackerrank_exercises
-Exercises from https://www.hackerrank.com/
+Resolving some exercises from https://www.hackerrank.com/
+
+Programmer: Hugo Leça Ribeiro
