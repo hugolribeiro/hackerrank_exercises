@@ -9,9 +9,9 @@ def simpleArraySum(ar):
 
 #####################################
 
-ar_count = int(input())
-
-ar = list(map(int, input().rstrip().split()))
-
-result = simpleArraySum(ar)
-print(result)
+# ar_count = int(input())
+#
+# ar = list(map(int, input().rstrip().split()))
+#
+# result = simpleArraySum(ar)
+# print(result)
