@@ -6,9 +6,9 @@ def pickingNumbers(a):
     total = 0
     unique_numbers = set(a)
     for number in unique_numbers:
-        times_this_number = a.count(number)
-        plus1 = a.count(number + 1) + times_this_number
-        minus1 = a.count(number - 1) + times_this_number
+        times_this_number_appears = a.count(number)
+        plus1 = a.count(number + 1) + times_this_number_appears
+        minus1 = a.count(number - 1) + times_this_number_appears
         if plus1 >= total:
             total = plus1
         if minus1 >= total:
