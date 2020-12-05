@@ -14,9 +14,9 @@ def designerPdfViewer(h, word):
     word = list(set(word))
     for letter in word:
         index = alpha.index(letter)
-        heigth = h[index]
-        if heigth > taller:
-            taller = heigth
+        height = h[index]
+        if height > taller:
+            taller = height
     result = (taller * length)
     return result
 
